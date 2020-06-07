@@ -8,3 +8,4 @@ Components used:
 6. Proc file
 
 
+Check the deployed app :https://insuranceregression.herokuapp.com/predict
