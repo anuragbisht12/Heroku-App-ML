@@ -13,6 +13,8 @@ Check the deployed app :https://insuranceregression.herokuapp.com/predict
 
 REST API calls
 
-import requestsurl = 'https://insuranceregression.herokuapp.com/predict'\n
-pred = requests.post(url,json={'age':55, 'sex':'male', 'bmi':59, 'children':1, 'smoker':'male', 'region':'northwest'})\n
+import requestsurl = 'https://insuranceregression.herokuapp.com/predict'
+
+pred = requests.post(url,json={'age':55, 'sex':'male', 'bmi':59, 'children':1, 'smoker':'male', 'region':'northwest'})
+
 print(pred.json())
